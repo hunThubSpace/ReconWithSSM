@@ -23,9 +23,9 @@ $ python3 setup.py; python3 ssm.py; dos2unix ssm.py
 $ ln -s /opt/others/SSM-SubScopeMongo/ssm.py /opt/others/bb_subscope; chmod +x /opt/others/bb_subscope; source ~/.zshrc
 
 # cloning recon framework (urlsRecon)
-$ cd /opt/others; git clone https://github.com/hunThubSpace/urlsRecon.git && cd urlsRecon
+$ cd /opt/others; git clone https://github.com/hunThubSpace/ReconWithSSM.git && cd ReconWithSSM
 $ dos2unix urlsRecon.py
-$ ls -s /opt/others/urlsRecon/urlsRecon.py /opt/bb_urlrecon; chmod +x bb_urlrecon
+$ ls -s /opt/others/ReconWithSSM/urlsRecon.py /opt/bb_urlrecon; chmod +x bb_urlrecon
 source ~/.zshrc
 
 # For starting recon, you need following steps
@@ -69,9 +69,9 @@ $ python3 setup.py; python3 ssm.py; dos2unix ssm.py
 $ ln -s /opt/others/SSM-SubScopeMongo/ssm.py /opt/others/bb_subscope; chmod +x /opt/others/bb_subscope; source ~/.zshrc
 
 # cloning recon framework (urlsRecon)
-$ cd /opt/others; git clone https://github.com/hunThubSpace/urlsRecon.git && cd urlsRecon
+$ cd /opt/others; git clone https://github.com/hunThubSpace/ReconWithSSM.git && cd ReconWithSSM
 $ dos2unix ipRecon.py
-$ ls -s /opt/others/urlsRecon/ipRecon.py /opt/bb_iprecon; chmod +x bb_iprecon
+$ ls -s /opt/others/ReconWithSSM/ipRecon.sh /opt/bb_iprecon; chmod +x bb_iprecon
 source ~/.zshrc
 
 # For starting recon, you need following steps
@@ -88,6 +88,6 @@ $ nano bb_iprecon
 ## 5. make sure you have shodan api
 $ shodan init <shodan-api-key>
 
-## 6. Start
+## 5. Start
 bb_iprecon
 ```
